@@ -5,5 +5,8 @@ This project consist of couple of files, they need to go into one common folder 
 
 Hardware connections to be deducted from adsCMDfast.h
 
-Any more - check the blog - Raspberry Pi4 setup, installations: http://michals-diy-electronics.blogspot.com/2022/04/ads129x-and-bcm2835-library-and.html
+Any more - check the blog.  
+
+Raspberry Pi4 setup, installations: http://michals-diy-electronics.blogspot.com/2022/04/ads129x-and-bcm2835-library-and.html  
+
 Data collection: https://michals-diy-electronics.blogspot.com/2020/01/data-collection-from-ads1298.html
