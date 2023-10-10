@@ -98,7 +98,7 @@ int main(int argc, char **argv)
 		if(bigbuf2[0]==0b11000000){//kind of crc.. always 192 -> 1100 0000
 			value1 = ((bigbuf2[3] << 24)|(bigbuf2[4] << 16)|(bigbuf2[5]<<8))>>8;
 		}
-		// convert to real voltage
+		// convert digital value to real volt value -> 2.5V(ref voltage) / (2^23)
 		voltvalue1 = value1*0.00000029802326;
 		
 		printf("%f\n",voltvalue1);
